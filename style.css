@@ -1,0 +1,41 @@
+.relative {
+    position: relative;
+    height: 30px;
+    border: 5px solid rgb(125, 167, 201);
+}
+
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sticky {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    position: sticky;
+}
+
+.image_section {
+    width: 100%;
+    height: 150px;
+    background-color: lightblue;
+    background-image: url(football.jpg.png);
+    text-align: center;
+    text-shadow: 1px 7px 8px blue;
+    color: white;
+}
+
+.gradient_section {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(161, 195, 206);
+    text-align: center;
+    background-image: linear-gradient(to right, blue, lightblue, blue);
+}
+
+.animation_section {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(122, 122, 245);
+    animation: contactanimation 10s infinite;
